@@ -1,0 +1,10 @@
+One month ago, we’ve published a list of 10 SQL Articles Everyone Must Read. A list of articles that we believe would add exceptional value to our readers on the jOOQ blog. The jOOQ blog is a blog focusing on both Java and SQL, so it is only natural that today, one month later, we’re publishing an equally exciting list of 10 Java articles everyone must read.
+
+Note that by “must read”, we may not specifically mean the particular linked article only, but also other works from the same authors, who have been regular bloggers over the past years and never failed to produce new interesting content!
+
+Here goes…
+
+1. Brian Goetz: “Stewardship: the Sobering Parts”
+The first blog post is actually not a blog post but a recording of a very interesting talk by Brian Goetz on Oracle’s stewardship of Java. On the jOOQ blog, we’ve been slightly critical about 1-2 features of the Java language in the past, e.g. when comparing it to Scala, or Ceylon.
+
+Brian makes good points about why it would not be a good idea for Java to become just as modern as quickly as other languages. A must-watch for every Java developer (around 1h)

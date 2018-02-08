@@ -1,0 +1,13 @@
+swagger:
+  resourcePackage: com.elsevier.assignment.resources
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 3000
+  adminConnectors:
+    - type: http
+      port: 3001
+
+base-directory: /Users/kalvichandrana/search-directory
+
