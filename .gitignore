@@ -1,0 +1,13 @@
+#Java stuff
+*.class
+build
+.DS_Store
+.gradle
+
+*.log
+
+# IDE stuff
+.idea
+*.iml
+*.ipr
+*.iws
