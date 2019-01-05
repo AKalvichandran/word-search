@@ -40,13 +40,13 @@ public class WordSearchApplication extends Application<WordSearchConfiguration> 
 
     @Override
     public void run(WordSearchConfiguration configuration, Environment environment) throws Exception {
-        Path start = Paths.get(configuration.getBaseDirectory());
         final List<String> fileList = new LinkedList<>();
+        /*Path start = Paths.get(configuration.getBaseDirectory());
         try (Stream<Path> searchDirectory = Files.walk(start)) {
             searchDirectory
                     .filter(p -> p.toFile().isFile() && p.toFile().getName().endsWith(".txt"))
                     .forEach(p -> fileList.add(p.toFile().getAbsolutePath()));
-        }
+        }*/
         final WordSearchService wordSearchService = new WordSearchServiceImpl();
         environment.jersey().register(new WordSearchResource(wordSearchService, fileList));
     }
