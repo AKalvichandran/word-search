@@ -1,4 +1,4 @@
-package com.elsevier.assignment.service;
+package com.assignment.service;
 
 import org.junit.Test;
 

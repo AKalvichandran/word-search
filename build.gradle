@@ -24,4 +24,4 @@ run {
     args = ["server", "configuration/configuration.yml"]
 }
 
-mainClassName = 'com.elsevier.assignment.WordSearchApplication'
+mainClassName = 'com.assignment.WordSearchApplication'

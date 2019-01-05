@@ -1,4 +1,4 @@
-package com.elsevier.assignment;
+package com.assignment;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;

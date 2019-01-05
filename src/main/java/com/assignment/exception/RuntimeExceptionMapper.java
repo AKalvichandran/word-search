@@ -1,4 +1,4 @@
-package com.elsevier.assignment.exception;
+package com.assignment.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

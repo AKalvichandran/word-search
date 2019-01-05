@@ -1,6 +1,6 @@
-package com.elsevier.assignment.resources;
+package com.assignment.resources;
 
-import com.elsevier.assignment.service.WordSearchService;
+import com.assignment.service.WordSearchService;
 import io.swagger.annotations.*;
 
 import javax.ws.rs.GET;

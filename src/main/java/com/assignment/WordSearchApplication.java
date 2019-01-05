@@ -1,8 +1,8 @@
-package com.elsevier.assignment;
+package com.assignment;
 
-import com.elsevier.assignment.resources.WordSearchResource;
-import com.elsevier.assignment.service.WordSearchService;
-import com.elsevier.assignment.service.WordSearchServiceImpl;
+import com.assignment.resources.WordSearchResource;
+import com.assignment.service.WordSearchService;
+import com.assignment.service.WordSearchServiceImpl;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
