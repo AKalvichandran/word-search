@@ -4,7 +4,6 @@ WORKDIR /apps/java
 RUN gradle build
 
 FROM openjdk:8-jdk-alpine
-COPY build/libs/word-search.jar /apps/libs/
+COPY /home/gradle/build/libs/word-search.jar word-search.jar
 EXPOSE 3000
-WORKDIR /apps/libs
-CMD ["java", "-jar", "-Done-jar.silent=true", "word-search.jar"]
+ENTRYPOINT exec java -jar /word-search.jar
