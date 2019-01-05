@@ -1,7 +1,7 @@
 FROM gradle:4.3-jdk-alpine
 ADD --chown=gradle https://github.com/AKalvichandran/word-search /apps/java/
 WORKDIR /apps/java
-RUN gradlew clean build
+RUN gradle clean build
 
 FROM openjdk:8-jdk-alpine
 COPY /apps/java/build/libs/word-search.jar /apps/libs/
